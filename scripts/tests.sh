@@ -1,5 +1,6 @@
 #!/bin/bash
 
+rm -rf data
 ./iterate.sh grep lorem
 ./iterate.sh awk '/lorem/'
 ./iterate.sh sed 's/lorem//g'
